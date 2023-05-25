@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoLab</title>
+    <!--css style sheet-->
+    <link rel="stylesheet" href="style.css">
+      <!-- google icons -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+     <header>
+          <div id="logo">
+               <img src="img/images/logo.png" alt="">
+          </div>
+          <nav>
+               <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a >PHOTOS & VEDIO<span class="material-symbols-outlined"> arrow_drop_down</span></a>
+                    <ul>
+                         <li><a href="snap.html">CONTEST</a></li>
+                         <li><a href="single contest.html">SINGLE CONTEST</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="categories.html">CATEGORIES</a></li>
+                    <li><a href="user.html">USER</a></li>
+               </ul>
+          </nav>
+          <div id="signup">
+              <a href="signin.html"><span class="material-symbols-outlined">manage_accounts</span>Sign in/Up</a>
+          </div>
+     </header>
+     <main>
+        <div id="snap-img">
+            <img src="img/images/heading-bg.jpg" >
+            <div id="snap-img-content">
+                <h1 class="title">Discover what's currently going on at<span> SnapX</span></h1>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis et ducimus! Architecto excepturi animi dolore laborum modi, natus ex harum dignissimos quia praesentium, aut, tempora sequi explicabo quod ipsam!</p>
+            </div>
+        </div>
+        <div id="snap-form">
+           <form >       
+            <div class="form-group" >
+                <label for="contest">Search Any Contest</label>
+                <input required type="text" id="contest" placeholder="Contest Name...">
+            </div>  
+            <div class="form-group">
+                <label for="category">Pick Category</label>
+                <select required name="category" id="category" >
+                    <option value="choose">choose a Category</option>
+                    <option value="nature">Nature Photography(220 Contest)</option>
+                    <option value="portrait"> Portrait Photography(156 Contest)</option>
+                    <option value="space"> Space Photography(92 Contest)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="award">Award Price</label>
+                <select required name="award" id="award" >
+                    <option value="choose">choose a Price</option>
+                    <option value="1000">$500 to $1,500</option>
+                    <option value="2500">$2,100 to $3,500</option>
+                    <option value="4000">$4,000+</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search Now">
+            </div>
+           
+           </form> 
+        </div>
+        <!---photos and videos start-->
+        <section id="snap-main" class="section-tb">
+            <center>
+                <p class="sub-title">Photo & Vedio AT SNAPX</p>
+                <h1 class="title">Our Featured <span>Photos & Videos</span> At SnapX</h1>
+            </center>
+            <div id="snap-photo-video">
+
+                <div class="photo-video-card">
+                    <div class="photo-video-head">
+                        <div class="photo-pop">
+                            <p><b>A Walk In Nature</b></p>
+                            <p><span><span class="material-symbols-outlined">visibility</span>12842</span><span><span class="material-symbols-outlined">favorite</span>11060</span></p>
+                            </div>
+                        <img src="img/images/photo-video-01.jpg">
+                    </div>
+                    <div class="photo-video-body">
+                        <p><b>Ranked: 1st</b></p>
+                        <p>Category: Photos</p>
+                    </div>
+                </div>
+
+                <div class="photo-video-card">
+                    <div class="photo-video-head">
+                        <div class="photo-pop">
+                            <p><b>Blue Mountain Hill</b></p>
+                            <p><span><span class="material-symbols-outlined">visibility</span>9654</span><span><span class="material-symbols-outlined">favorite</span>5620</span></p>
+                            </div>
+                        <img src="img/images/photo-video-02.jpg">
+                        <div class="video-pop"><a href="https://www.youtube.com/"><span class="material-symbols-outlined">play_circle</span></a></div>
+                    </div>
+                    <div class="photo-video-body">
+                        <p><b>Ranked: 2nd</b></p>
+                        <p>Category: Videos</p>
+                    </div>
+                </div>
+
+                <div class="photo-video-card">
+                    <div class="photo-video-head">
+                        <div class="photo-pop">
+                            <p><b>Underwater Turtle</b></p>
+                            <p><span><span class="material-symbols-outlined">visibility</span>7639</span><span><span class="material-symbols-outlined">favorite</span>5369</span></p>
+                            </div>
+                        <img src="img/images/photo-video-03.jpg">
+                    </div>
+                    <div class="photo-video-body">
+                        <p><b>Ranked: 3rd</b></p>
+                        <p>Category: Photos</p>
+                    </div>
+                </div>
+
+                <div class="photo-video-card">
+                    <div class="photo-video-head">
+                        <div class="photo-pop">
+                            <p><b>Greeny Place</b></p>
+                            <p><span><span class="material-symbols-outlined">visibility</span>9634</span><span><span class="material-symbols-outlined">favorite</span>3789</span></p>
+                            </div>
+                        <img src="img/images/photo-video-04.jpg">
+                        <div class="video-pop"><a href="https://www.youtube.com/"><span class="material-symbols-outlined">play_circle</span></a></div>
+                    </div>
+                    <div class="photo-video-body">
+                        <p><b>Ranked: 4th</b></p>
+                        <p>Category: Videos</p>
+                    </div>
+                </div>
+
+                <div class="photo-video-card">
+                    <div class="photo-video-head">
+                        <div class="photo-pop">
+                            <p><b>Rocky Mountain</b></p>
+                            <p><span><span class="material-symbols-outlined">visibility</span>4239</span><span><span class="material-symbols-outlined">favorite</span>2360</span></p>
+                            </div>
+                        <img src="img/images/photo-video-05.jpg">
+                    </div>
+                    <div class="photo-video-body">
+                        <p><b>Ranked: 5th</b></p>
+                        <p>Category: Random</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!---photos and videos end-->
+         <!---Contests start-->
+        <section class="section-tb" id="contests">
+            <center>
+                <p class="sub-title">RECENTLY ADDED CONTESTS BY USERS</p>
+                <h1 class="title">Current <span>Contests</span> To Enter Now & <span> Win</span></h1>
+            </center>
+            <div id="contests-card-box">
+
+            <div class="contest-card">
+                <div class="contest-card-head">
+                    <div class="d-flex">
+                        <p>Award Price</p>
+                        <p><b>$1,400</b></p>
+                    </div>
+                </div>
+                <div class="contest-card-body">
+                    <img src="img/images/contest-01.jpg">
+                     <center><h3>Walk In Nature Night</h3></center>
+                    <div class="d-flex">
+                    <p> <img src="img/images/icon-03.png"> 55 Participants</p>
+                    <p> <img src="img/images/icon-01.png">  120 ubmissions</p>               
+                    </div>
+                </div>
+                <div class="contest-card-footer">
+                    <center><a href="#" >browse nature pic contest</a></center>
+                    <center><p>* Client will pay via Online Payments</p></center>
+                </div>  
+            </div>
+
+            <div class="contest-card">
+                <div class="contest-card-head">
+                    <div class="d-flex">
+                        <p>Award Price</p>
+                        <p><b>$1,400</b></p>
+                    </div>
+                </div>
+                <div class="contest-card-body">
+                    <img src="img/images/contest-02.jpg">
+                     <center><h3>Walk In Nature Night</h3></center>
+                    <div class="d-flex">
+                    <p> <img src="img/images/icon-03.png"> 55 Participants</p>
+                    <p> <img src="img/images/icon-01.png">  120 ubmissions</p>               
+                    </div>
+                </div>
+                <div class="contest-card-footer">
+                    <center><a href="#" >browse nature pic contest</a></center>
+                    <center><p>* Client will pay via Online Payments</p></center>
+                </div>  
+            </div>
+
+            <div class="contest-card">
+                <div class="contest-card-head">
+                    <div class="d-flex">
+                        <p>Award Price</p>
+                        <p><b>$1,400</b></p>
+                    </div>
+                </div>
+                <div class="contest-card-body">
+                    <img src="img/images/contest-01.jpg">
+                     <center><h3>Walk In Nature Night</h3></center>
+                    <div class="d-flex">
+                    <p> <img src="img/images/icon-03.png"> 55 Participants</p>
+                    <p> <img src="img/images/icon-01.png">  120 ubmissions</p>               
+                    </div>
+                </div>
+                <div class="contest-card-footer">
+                    <center><a href="#" >browse nature pic contest</a></center>
+                    <center><p>* Client will pay via Online Payments</p></center>
+                </div>  
+            </div>
+
+            <div class="contest-card">
+                <div class="contest-card-head">
+                    <div class="d-flex">
+                        <p>Award Price</p>
+                        <p><b>$1,400</b></p>
+                    </div>
+                </div>
+                <div class="contest-card-body">
+                    <img src="img/images/contest-02.jpg">
+                     <center><h3>Walk In Nature Night</h3></center>
+                    <div class="d-flex">
+                    <p> <img src="img/images/icon-03.png"> 55 Participants</p>
+                    <p> <img src="img/images/icon-01.png">  120 ubmissions</p>               
+                    </div>
+                </div>
+                <div class="contest-card-footer">
+                    <center><a href="#" >browse nature pic contest</a></center>
+                    <center><p>* Client will pay via Online Payments</p></center>
+                </div>  
+            </div>
+
+        </div>
+        </section>
+         <!--Contests End--->
+            <!--footer start -->
+            <footer id="footer">
+            <center><p>Copyright <span class="material-symbols-outlined">copyright</span> 2022<a href="snap.html"> SnapX </a>Photo Contest Co.,Ltd.All rights reserved. Design: <a href="#">Karthii</a></p></center>
+            </footer>
+           <!-- footer end-->
+     </main>
+<!--js style sheet-->
+<script src="index.js"></script>
+</body>
+</html>
